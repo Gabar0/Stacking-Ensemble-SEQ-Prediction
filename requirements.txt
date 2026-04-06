@@ -1,0 +1,10 @@
+Google Colaboratory
+Python 3.7+
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+shap
+scipy
+tabulate
