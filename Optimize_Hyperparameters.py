@@ -32,7 +32,7 @@ from sklearn.ensemble import StackingRegressor
 df = pd.read_excel('DATASET.xlsx')
 print(f"Dataset loaded: {df.shape[0]} rows, {df.shape[1]} columns")
 
-features = ["IOLtype", "ACD", "LT", "AL", "K1", "K2", "WTW", "IOL"]
+features = ["IOLtype", "ACD", "LT", "AL", "K1", "K2", "IOL"]
 target = "SEQ"
 
 X = df[features].copy()
@@ -48,7 +48,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 scaler = StandardScaler()
-cols_to_scale = ["ACD", "LT", "AL", "K1", "K2", "WTW", "IOL"]
+cols_to_scale = ["ACD", "LT", "AL", "K1", "K2", "IOL"]
 X_train_scaled = X_train.copy()
 X_train_scaled[cols_to_scale] = scaler.fit_transform(X_train[cols_to_scale])
 
