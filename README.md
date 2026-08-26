@@ -15,8 +15,7 @@ The project develops and evaluates a stacking ensemble machine learning approach
 **Level-1 (Meta-Learner):**
 The predictions from the base Learners are then combined using a Ridge regression meta-learner to produce the final prediction.
 
-![Pipeline](Stacking ensemble pipeline.png)
-Stacking ensemble pipeline.png
+![Pipeline](stacking_ensemble_pipeline.png)
 
 ##  Key Features
 * **Exploratory Data Analysis** and comprehensive correlation analysis.
