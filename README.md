@@ -53,11 +53,12 @@ The predictions from the base Learners are then combined using a Ridge regressio
 * `Notebook_Stacking_Ensemble_model.ipynb`: Jupyter Notebook containing the full analysis pipeline, including data Analysis, data preprocessing, model training, evaluation results, and visualizations.
 * `Stacking_Ensemble_model.py`: Python script containing the core stacking ensemble architecture for execution.
 * `Optimize_Hyperparameters.py`: Hyperparameter optimization script utilizing the Optuna framework, ready-to-use for re-tuning, future re-tuning if needed.
+* `Statistical Analysis and Feature Selection`: Jupyter Notebook containing dataset Analysis and Feature Selection Analysis
 * `Requirements.txt`: List of all Python dependencies required to reproduce the environment.
 * `README.md`: This documentation file.
 
 ##  Contributors
-* **M. Gabar Zeyadi**
+* **M. Gabar Zeyadi**            | [ORCID: 0009-0005-5883-4272](https://orcid.org/0009-0005-5883-4272)
 * **Prof. Dr. Selcan Ipek-Ugay** | [ORCID: 0000-0002-4132-1199](https://orcid.org/0000-0002-4132-1199)
 
 ##  License
